@@ -6,18 +6,20 @@ To read the report on this project, click here (link to the report?)
 
 ## Pre-requisite
 
-Python (at least version 3)
-Matplotlib
-Pandas
+Make sure the following are installed before running,
+
+- Python (at least version 3)
+- Matplotlib
+- Pandas
 
 ## How to run me
 
 
 run the following in the terminal:
 ```
-$ cd ../
+$ cd ../Final-Year-Project-main
 $ python3 run_script.py
-
+```
 ## Customizing
 
 To run the repository with your own collection of TLA+, replace TLA+ files in 'files' folder with your collection of TLA+ files. Then, run the code. 
