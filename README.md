@@ -14,9 +14,9 @@ Pandas
 
 
 run the following in the terminal:
-
-`code` cd ../(name of file)
-`code` python3 run_script.py
+```
+$ cd ../
+$ python3 run_script.py
 
 ## Customizing
 
