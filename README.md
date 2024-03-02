@@ -26,6 +26,6 @@ To run the repository with your own collection of TLA+, replace TLA+ files in 'f
 
 ## Project Details
 
-The system of this project has the architecture design shown below and functional requirements accessible [here](https://livemanchesterac-my.sharepoint.com/:x:/g/personal/shun_mon_student_manchester_ac_uk/ETf7a1Qf5NNCtIHzJOD-hogBbAcePVINlIFU3U8qxJkhUg?e=e3erzx)
+The system of this project has the architecture design shown below and functional requirements accessible [here](https://livemanchesterac-my.sharepoint.com/:x:/g/personal/shun_mon_student_manchester_ac_uk/ETf7a1Qf5NNCtIHzJOD-hogBbAcePVINlIFU3U8qxJkhUg?e=e3erzx).
 
-![architecture desgin diagram](https://github.com/[Shun702]/[Final-Year-Project]/[main]/image.jpg?raw=true)
+![architecture desgin diagram](https://github.com/Shun702/Final-Year-Project/blob/e6ca42eb4133848b018167f5c613897631bc4e4e/Architecture%20design-2.png?raw=true)
