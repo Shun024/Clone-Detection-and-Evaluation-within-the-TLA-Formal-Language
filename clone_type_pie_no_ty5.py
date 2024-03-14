@@ -27,7 +27,7 @@ def clone_type_pie(parsed_stats, tokenized_stats, png_image):
 	t4f2_percentage = type4_file2 / total * 100
 
 	# Creating data for the pie chart
-	labels = ['Raw Type-1 Clones', 'Tokenized Type-1 Clones', 'Tokenized Type-2 Clones', 'Tokenized Type-3 Clones', 'Tokenized Type-4 Clones', 'Tokenized Type-5 Clones']
+	labels = ['Raw Type-1 Clones', 'Tokenized Type-1 Clones', 'Tokenized Type-2 Clones', 'Tokenized Type-3 Clones', 'Tokenized Type-4 Clones']
 	sizes = [type1_file1, type1_file2, type2_file2, type3_file2, type4_file2]
 	percentages = [t1f1_percentage, t1f2_percentage, t2f2_percentage, t3f2_percentage, t4f2_percentage] 
 	colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue', 'orange']
