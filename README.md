@@ -2,7 +2,7 @@
 
 This repository is associated with the project for clone detection and analysis within TLA+ specifications. In this repository, you can get access to collection of TLA+ collections, code for preprocessing, tokenization, clone detection, output statistics and visualisations. 
 
-Report of this project: working in progress
+Report of this project: work in progress
 
 ## Pre-requisite
 
