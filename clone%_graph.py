@@ -25,6 +25,9 @@ def visualize_stats(similarity, max_percentage, min_percentage):
     # Merge dataframes on 'Clone Type'
     merged = similarity.merge(max_percentage, on='Clone Type', suffixes=('_mean', '_max')).merge(min_percentage, on='Clone Type')
 
+    # Replace values in 'Clone Type' column
+    merged['Clone Type'] = merged['Clone Type'].apply(lambda x: f"tokenized-type{x.split('-')[1]}")
+
     # Plot the results using Seaborn
     plt.figure(figsize=(10, 6))
     sns.set(style='whitegrid')
@@ -38,6 +41,15 @@ def visualize_stats(similarity, max_percentage, min_percentage):
     plt.tight_layout()
 
     plt.savefig('cloneType%_graph.png')
+
+csv_file = 'files_clones.csv'
+
+# Calculate similarity, max percentage, and min percentage of each clone type
+similarity, max_percentage, min_percentage = calculate_stats_per_clone_type(csv_file)
+
+# Visualize the stats
+visualize_stats(similarity, max_percentage, min_percentage)
+
 
 csv_file = 'files_clones.csv'
 
