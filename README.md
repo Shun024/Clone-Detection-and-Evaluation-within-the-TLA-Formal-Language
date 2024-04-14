@@ -36,10 +36,6 @@ Difficulty key
 ### Report
 (_work in progress_)
 
-
-### Screencast
-(_work in progress_)
-
 ### Software Architecture Diagram
 
 ![architecture desgin diagram](https://github.com/Shun702/Final-Year-Project/blob/e6ca42eb4133848b018167f5c613897631bc4e4e/Architecture%20design-2.png?raw=true)
