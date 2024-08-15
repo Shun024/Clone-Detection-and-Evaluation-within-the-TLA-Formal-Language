@@ -4,8 +4,6 @@ This repository is associated with the project for clone detection and analysis 
 
 ## Project Description
 
-**Specification Clones**
-
 Supervisor: Marie Farrell
 
 Difficulty: C
