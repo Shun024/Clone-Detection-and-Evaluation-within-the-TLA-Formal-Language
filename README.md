@@ -58,7 +58,6 @@ Make sure the following are installed before running
 
 run the following in the terminal:
 ```
-$ cd ../Final-Year-Project-main
 $ python3 run_script.py
 ```
 ### Customizing
